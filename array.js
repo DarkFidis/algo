@@ -112,3 +112,23 @@ export function reverseArray(arr, start = 0, end = arr.length - 1) {
     }
     return arr;
 }
+
+export function recursive_binary_search(
+    search,
+    array,
+    startIndex = 0,
+    endIndex = array.length - 1
+) {
+    if (startIndex > endIndex) {
+        return null;
+    } else {
+        const mid = Math.floor((startIndex + endIndex) / 2);
+        if (array[mid] === search) {
+            return mid;
+        } else if (array[mid] > search) {
+            return recursive_binary_search(search, array, startIndex, mid - 1);
+        } else {
+            return recursive_binary_search(search, array, mid + 1, endIndex);
+        }
+    }
+}
