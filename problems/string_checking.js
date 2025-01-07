@@ -1,4 +1,4 @@
-import {LinkedListStack} from "../stacks";
+import {LinkedListStack} from "../structures/stacks";
 
 export function reverseStringWithStack(str) {
     const stack = new LinkedListStack();
