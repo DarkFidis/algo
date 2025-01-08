@@ -41,5 +41,30 @@ par la longueur du tableau (`n`)
 
 `hash(key) = Math.floor(n * (key * C mod 1))`
 
+### Arbre
+
+Un arbre est une structure non-linéaire caractérisée par : 
+
+- Un noeud racine, c-à-d sans parent
+- Chaque noeud peut être connecté à un ou plusieurs autres noeuds mais n'a qu'un seul noeud parent
+- Les __feuilles__ désignent les noeuds sans enfants
+- Les noeuds ayant le même parent sont __frères__
+- La profondeur d'un noeud est le nombre de connexions qui le sépare du noeud racine
+- La hauteur d'un arbre est la distance entre le noeud racine et le noeud le plus profond
+
+L'exemple d'arbre le plus connu est le DOM.
+
+#### Arbre binaire
+
+Un arbre binaire est un arbre ou les noeuds ont 2 enfants maximum. L'exemple le plus connu est l'arbre binaire de recherche dans lequel chaque noeud a une clé telle
+que : 
+
+- Chaque noeud situé dans la partie gauche de l'arbre a une clé inférieure ou égale au noeud parent
+- Chaque noeud situé dans la partie droite de l'arbre a une clé supérieure ou égale au noeud parent
+
+#### Arbre AVL
+
+Dans un arbre AVL, chaque noeud doit avoir des sous-arbres de taille égale ou différent de 1
+
 
 
