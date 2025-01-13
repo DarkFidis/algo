@@ -66,5 +66,13 @@ que :
 
 Dans un arbre AVL, chaque noeud doit avoir des sous-arbres de taille égale ou différent de 1
 
+### Tas binaire
+
+TODO
+
+### Graphes
+
+TODO
+
 
 
