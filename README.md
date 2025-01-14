@@ -68,11 +68,28 @@ Dans un arbre AVL, chaque noeud doit avoir des sous-arbres de taille égale ou d
 
 ### Tas binaire
 
-TODO
+Un tas binaire est un arbre binaire qui respecte la propriété des tas, c-à-d que chaque noeud parent doit avoir : 
+
+- Dans le cas du tas minimum, une clé inférieure ou égale à celles de ses enfants
+- Dans le cas du tas maximum, une clé supérieure ou éagle à celles de ses enfants
 
 ### Graphes
 
-TODO
+Un graphe est une structure utilisée pour réprésenter des noeuds et les relations entre ces derniers. Il existe de nombreux types de graphes : 
+
+- *Graphe orienté* : Graphe dans lequel les relations ont une direction, utilisé pour représenter des relations de subordination par exemple
+- *Graphe non orienté* : Graphe dans lequel les relations n'ont pas de direction, souvent utilisé pour représenter des relations symétriques ou bi-directionnelles
+- *Graphe pondéré* : Graphe dans lequel on associe une ou plusieurs valeurs à chaque relation
+- *Graphe non pondéré* : Graphe dans lequel les relations n'ont pas de valeurs associées
+- *Graphe cyclique* : Graphe dans lequel il existe un chemin qui commence et se termine dans le même noeud
+- *Graphe acyclique*
+- *Graphe complet* : Graphe dans lequel chaque noeud est relié aux autres
+- *Graphe partiel*
+
+#### Vocabulaire des graphes
+
+- *Voisins* : Les voisins d'un noeud désignent les autres noeuds qui sont directement reliés à ce dernier.
+- *Degré* : Désigne le nombre de relations qui arrivent ou partent du noeud
 
 
 
